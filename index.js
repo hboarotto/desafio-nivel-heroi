@@ -2,8 +2,9 @@
 let nomeHeroi ="Thor"
 // segundo criar variavel de nivel
 let nivel 
-// terceiro criar valores de xp 
-let xp = 20000
+// terceiro criar valores de xp ( deve ser definida a variável em xp, neste exemplo coloquei 3000 para dar resultado Prata)
+let xp = 3000
+
 // criar as condições para xp dar o nivel 
 
 if (xp <= 1000){
@@ -13,7 +14,7 @@ else if (xp >= 1001 && xp <= 2000){
     nivel = "Bronze"
 }
 
-else if (xp >= 2001 && xp <= 5000){
+else if (xp >= 2001 && xp<= 5000){
     nivel = "Prata"
 }
 
@@ -23,7 +24,7 @@ else if (xp >= 5001 && xp <= 7000){
 else if (xp >= 7001 && xp <= 8000){
     nivel = "Platina"
 }
-else if (xp >= 8001 && xp <= 9000){
+else if (xp>= 8001 && xp <= 9000){
     nivel = "Ascendente"
 }
 else if (xp >= 9001 && xp <= 10000){
